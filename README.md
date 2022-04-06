@@ -45,7 +45,7 @@ tail -f nohup.out
 
 ```bash
 cd /root/minerProxy/minerProxy303-303
-#切到软件目录(添加代理，添加抽水参数都需要切到软件目录）
+#切到软件目录(添加代理、添加抽水参数都需要切到软件目录）
 ```
 
 ```bash
