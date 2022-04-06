@@ -1,15 +1,27 @@
 # minerProxy
-抽水软件三大家：老矿、二次元、GO，TG上有爆料作者暗抽严重，找到去年下载的303原版分享给大家，虽然版本原始，但是原作者抽水的有良心底线。
+抽水软件三大家：老矿、二次元、GO，TG上有爆料作者暗抽严重，找到去年下载的303原版分享给大家，虽然版本原始，但是作者抽的良心底线。
 ## 知识是财富
-根据下面指令无法操作的可以联系【电报https://t.me/Pure_minerProxy303 QQ群496875829】帮你搭建，可以添加隧道加密数据传输、混淆加密数据传输。
+根据下面指令无法操作的可以联系【电报https://t.me/Pure_minerProxy303 Q群496875829】帮你搭建，可以添加隧道加密数据传输、混淆加密数据传输。
 
 ## Liunx下
 
 ```bash
-git clone https://github.com/sobolo2333/minerProxy303.git
-cd minerProxy 
+sudo -i
+ #取得root权限
+mkdir minerProxy
+ #建立文件夹
+cd minerProxy
+ #切到文件夹
+wget https://github.com/sobolo2333/minerProxy303/archive/refs/tags/303.tar.gz
+ #下载
+tar -xzvf 303.tar.gz
+ #解压
+cd minerProxy303-303
+ #切到文件夹
 chmod a+x minerProxy
+ #赋予权限
 ./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 5555
+ #添加代理矿池，建议采用倒数第二命令样式【同时设置代理矿池+抽水矿池，并后台运行】
 ```
 
 ### 后台运行（注意后面的&）运行完再敲几下回车
@@ -72,4 +84,3 @@ nohup ./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 5555 -devPool ssl:
 ```bash
 ./minerProxy -pool tcp://ethash.poolbinance.com:3333
 ```
-
