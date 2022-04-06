@@ -69,7 +69,7 @@ minerProxy.exe -pool ssl://asia2.ethermine.org:5555 -port 5555
 
 # 参数说明
 ## 例子
-### 往/E池亚洲1节点/0x2485B3E37b177001faFceC9947959987740dcD69钱包地址/抽水2%
+### 往/E池亚洲1节点/0x1234B3E37b177001faFceC9947959987740dcD69钱包地址/抽水2%
 
 ```bash
 ./minerProxy -devPool ssl://asia1.ethermine.org:5555 -ethAddr 0x1234B3E37b177001faFceC9947959987740dcD69 -devFee 2
