@@ -44,6 +44,11 @@ tail -f nohup.out
 ### 要运行多个代理矿池,设置不同的本地端口即可,例如
 
 ```bash
+cd /root/minerProxy/minerProxy303-303
+#切到软件目录(添加代理，添加抽水参数都需要切到软件目录）
+```
+
+```bash
 nohup ./minerProxy -pool ssl://ethssl-asia.f2pool.com:6698 -port 6698 &
 ```
 ## 提示bash: git: command not found的先安装git
