@@ -82,7 +82,7 @@ minerProxy.exe -pool ssl://asia2.ethermine.org:5555 -port 5555
 ### 同时设置代理矿池+抽水矿池，并后台运行，采用下面命令就可以
 
 ```bash
-nohup ./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 5555 -devPool ssl://asia1.ethermine.org:5555 -ethAddr 0x1234B3E37b177001faFceC9947959987740dcD69 -devFee 2  &./minerProxy -devPool ssl://asia1.ethermine.org:5555 -ethAddr 0x1234B3E37b177001faFceC9947959987740dcD69 -devFee 2
+nohup ./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 5555 -devPool ssl://asia1.ethermine.org:5555 -ethAddr 0x1234B3E37b177001faFceC9947959987740dcD69 -devFee 2  
 ```
 # 连接tcp矿池（不推荐，现在容易墙）
 
