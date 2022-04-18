@@ -29,6 +29,12 @@ chmod a+x minerProxy
 nohup ./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 5555 &
 ```
 
+## 提示nohup: ignoring input and appending output to 'nohup.out'
+### ubuntu下
+
+```bash
+nohup ./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 5555 >/dev/null 2>&1
+```
 ### 后台运行时关闭
 
 ```bash
